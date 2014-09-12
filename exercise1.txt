@@ -1,0 +1,15 @@
+Michael Smith
+JHED: msmit181
+600.684 MAR
+Exercise 1
+
+#2d)
+advantages of auto-thresholding: works well out of the box, less parameters to toggle (mean vs gaussian, and region size), and it outputs a usable image.
+disadvantages of auto-thresholding: threshold sometimes noisy in terms of keeping a clean frame around the markers
+
+advantages of thresholding: able to fine-tune
+disadvantages of thresholding: takes a while to do so
+
+Chosen 'best': binary threshold type, value 100
+
+
